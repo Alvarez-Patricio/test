@@ -145,6 +145,6 @@ def load_voonix_earnings():
                 client.load_table_from_dataframe(advertiser_earnings_df, table_ref).result()
 
     transform_and_load(extract())
-
+#
 
 load_voonix_earnings = load_voonix_earnings()
