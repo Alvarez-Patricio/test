@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@www.googleapis.com/bigquery/v2" uuid="f2fe01aa-5a53-4f8a-a9ad-47b89b36a5f2">
+      <driver-ref>bigquery</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.googlebigquery.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:bigquery://https://www.googleapis.com/bigquery/v2:443</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="ProjectId" value="data-421208" />
+        <property name="OAuthServiceAcctEmail" value="pat-airflowtobq-loader@data-421208.iam.gserviceaccount.com" />
+        <property name="OAuthPvtKeyPath" value="$PROJECT_DIR$/../../../s/1data-421208-87a94efd26d2.json" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
