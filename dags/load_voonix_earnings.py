@@ -4,7 +4,7 @@ import pandas as pd
 import time
 from airflow.decorators import dag, task
 from airflow.models.variable import Variable
-from google.cloud import bigquery
+from google.cloud.bigquery import bigquery, storage
 from datetime import date, datetime, timedelta
 
 
