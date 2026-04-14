@@ -147,5 +147,5 @@ def load_voonix_earnings():
 
     transform_and_load(extract())
 
-#
+
 load_voonix_earnings = load_voonix_earnings()
