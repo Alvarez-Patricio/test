@@ -15,7 +15,7 @@ default_args = {
     'depends_on_past': False,
     'start_date': datetime(2026, 1, 1),
     'schedule': '@hourly',
-    'from_email' : ['data@leadhousenetwork.com'],
+    'from_email' : 'data@leadhousenetwork.com',
     'email': ['leadhouse-notificatio-aaaatzzmvwebecucpvrxz3n4me@daxers.slack.com'],
     'email_on_failure': True,
     'email_on_retry': False,
