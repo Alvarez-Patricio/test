@@ -19,8 +19,8 @@ default_args = {
     'email_on_failure': True,
     'email_on_retry': False,
     #'catchup': False,
-    'retry_delay': timedelta(minutes=1),
-    'retries': 1
+    #'retry_delay': timedelta(minutes=1),
+    #'retries': 1
 }
 
 
