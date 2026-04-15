@@ -2,13 +2,13 @@ version: "3.1"
 services:
   scheduler:
     volumes:
-      - /Users/daxers/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
+      - ${HOME}/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
   api-server:
     volumes:
-      - /Users/daxers/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
+      - ${HOME}/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
   triggerer:
     volumes:
-      - /Users/daxers/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
+      - ${HOME}/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
   dag-processor:
     volumes:
-      - /Users/daxers/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
+      - ${HOME}/.config/gcloud/application_default_credentials.json:/usr/local/airflow/gcloud/application_default_credentials.json:rw
